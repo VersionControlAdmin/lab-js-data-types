@@ -14,6 +14,7 @@ function tongueTwisterGenerator (wordArray) {
     for (i = 0; i < wordArray.length;i++) {
         tongueTwister +=wordArray[i]+" ";
     }
+    tongueTwister += `${s3} ${s2} ${s1} ${s4}`
     return tongueTwister;
 }
 
